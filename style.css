@@ -47,6 +47,21 @@ h1 {
     font-size: 0.9em;
   }
 }
+.submit {
+        width: auto;
+        margin-left: auto;
+        padding: 0.75rem 2rem;
+        background-color: green; /* Make button green */
+        color: white; /* Set text color to white */
+        border: none; /* Remove border */
+        border-radius: 5px; 
+        font-weight: bold; 
+        cursor: pointer; /* Change cursor on hover */
+    }
+
+.submit:hover {
+        background-color: darkgreen; /* Darker green when hover */
+    }
 
 @media screen and (min-width: 768px) {
     body {
@@ -70,21 +85,5 @@ h1 {
 
     .input-field {
         flex: 2;
-    }
-
-    .submit {
-        width: auto;
-        margin-left: auto;
-        padding: 0.75rem 2rem;
-        background-color: green; /* Make button green */
-        color: white; /* Set text color to white */
-        border: none; /* Remove border */
-        border-radius: 5px; 
-        font-weight: bold; 
-        cursor: pointer; /* Change cursor on hover */
-    }
-
-    .submit:hover {
-        background-color: darkgreen; /* Darker green when hover */
     }
 }
