@@ -15,6 +15,11 @@ input {
   border-radius: 6px;
 }
 
+h5 {
+  text-align: center; /* Center the text */
+  margin: 10px 0; /* Add some vertical spacing */
+}
+
 .fontsize {
   font-size: 1.3em;
 }
