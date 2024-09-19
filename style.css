@@ -16,7 +16,7 @@ input {
   border-radius: 6px;
 }
 
-h1 {
+#container h1 {
   text-align: center; /* Center the text */
   margin: 10px 0; /* Add some vertical spacing */
   font-size: 2em;
